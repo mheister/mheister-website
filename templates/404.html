@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>404: Not Found</h1>
+
+<p>
+    You have likely followed a broken link. Please
+    <a href="{{ get_url(path='@/contact_me.md') }}">let me know</a> if you think
+    something is broken.
+</p>
+
+<a href="/">home</a>
+{% endblock content %}

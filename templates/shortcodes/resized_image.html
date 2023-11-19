@@ -1,0 +1,5 @@
+{% set source = source | trim_start_matches(pat='/') %}
+{% set image = resize_image(path=source, width=width, op="fit_width") %}
+<a href="/{{source}}">
+<img src="{{image.url}}" alt="{{alt}}"/>
+</a>
