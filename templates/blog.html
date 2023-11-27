@@ -2,27 +2,31 @@
 
 {% block content %}
 <h1 class="title">
-  {{ section.title }}
+    {{ section.title }}
 </h1>
 
 <div class="posts">
     {% for page in paginator.pages %}
-        <article class="post">
-            <h2>{{ page.title }}</h2>
-            <h3>{{ page.date }}</h3>
-            <div class="post__summary">
-                {{ page.content | safe }}
-            </div>
-             <div class="post-date">{{ page.date | date(format="%B %e, %Y") }}</div>
-        </article>
+    <article class="post_preview">
+        <a href="{{ page.permalink }}" style="color: inherit">
+            <h2>
+                <strong>{{ page.date | date(format="%B %e, %Y") }} </strong>
+                {{ page.title }}
+            </h2>
+        </a>
+        <div class="post__summary">
+            {{ page.summary | safe }}
+        </div>
+        <a href="{{ page.permalink }}#continue-reading">›› continue reading</a>
+    </article>
     {% endfor %}
 </div>
 <nav class="pagination">
     {% if paginator.previous %}
-        <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+    <a class="previous" href="{{ paginator.previous }}"> ‹ Older </a>
     {% endif %}
     {% if paginator.next %}
-        <a class="next" href="{{ paginator.next }}">Next ›</a>
+    <a class="next" href="{{ paginator.next }}">Newer ›</a>
     {% endif %}
 </nav>
 

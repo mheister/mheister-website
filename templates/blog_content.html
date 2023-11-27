@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<article class="post">
+    <h1 class="title">
+        <strong>{{ page.date | date(format="%B %e, %Y") }}</strong>
+        {{ page.title }}
+    </h1>
+    <div class="post__content">
+        {{ page.content | safe }}
+    </div>
+    <div class="post-date">{{ page.date | date(format="%B %e, %Y") }}</div>
+</article>
+
+<nav class="pagination">
+    <a href="{{ get_url(path='@/blog/_index.md') }}">^ back to overwiew</a>
+</nav>
+
+{% endblock content %}
