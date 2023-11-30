@@ -10,7 +10,7 @@
     <div class="post__content">
         {{ page.content | safe }}
     </div>
-    <div class="post-date">{{ page.date | date(format="%B %e, %Y") }}</div>
+    <div class="post-date">Last updated: {{ page.updated | default(value=page.date) | date(format="%B %e, %Y") }}</div>
 </article>
 
 <nav class="pagination">
