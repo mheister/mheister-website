@@ -1,5 +1,6 @@
 +++
 title = "The C++ Dynamic Base Boilerplate"
+updated = 2023-11-30
 +++
 
 After years of using C++, I changed my snippet for the very common case of a dynamic base
@@ -53,6 +54,7 @@ settings with everyone who will ever look at my code, I changed my snippet to th
 class ISnippet
 {
   public:
+   ISnippet() = default;
    virtual ~ISnippet() = default;
 
   protected:
@@ -74,3 +76,8 @@ It fascinates me, that I would still change a snippet for such a common boilerpl
 ### See also
   - Scott Meyers, "Effective Modern C++", Item 17, "Understand special member function generation."
   - [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)  on cppreference.com
+
+</br>
+
+_Edit: I forgot to add the explicit default constructor in the second listing, which is
+not automatically generated in the presence the of user-defined copy and move construtors_
