@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/nonogram_game/">
+    <meta charset="utf-8">
+    <title>Nonogram App</title>
+    <style type="text/css" media="screen">
+        a,
+        a:visited,
+        a:hover,
+        a:active {
+            color: inherit;
+        }
+
+        h1,
+        h3 {
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 14em;
+            line-height: 26px;
+            text-align: right;
+        }
+
+        select,
+        input {
+            flex: 0 0 4em;
+            margin-left: 10px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #6D6D6D;
+        }
+
+        input {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 17em;
+            /* some width */
+        }
+
+        button {
+            background: transparent;
+            border: 1px solid #6D6D6D;
+            padding-top: 2px;
+            padding-right: 4px;
+            padding-left: 4px;
+        }
+
+        .content-box {
+            display: block;
+            margin: 10px 10% 10px 10%;
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #E8ECFF;
+        }
+
+        .panel {
+            margin: 5px auto 30px auto;
+            padding: 14px;
+            border-radius: 10px;
+            background-color: #E0E2F4;
+        }
+
+        #game-board {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            fill: #303030;
+            cursor: default;
+            user-select: none;
+        }
+
+        .game-grid-line {
+            stroke: #B2B2B2;
+            stroke-width: 2;
+        }
+
+        .game-cell-filled {
+            fill: #6D6D6D;
+            stroke-width: 1;
+            stroke: #4E4E4E;
+        }
+
+        .game-cell-filled-incorrect {
+            fill: #8D6D6D;
+            stroke-width: 1;
+            stroke: #6E4E4E;
+        }
+
+        .game-cell-hint {
+            fill: #DDDDDD;
+            stroke-width: 2;
+            stroke: #4E4E4E;
+        }
+
+        .game-cell-preview {
+            fill: #000000;
+        }
+    </style>
+
+    <link rel="preload" href="./yew-nonograms-rel_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+    <link rel="modulepreload" href="./yew-nonograms-rel.js">
+</head>
+
+<body>
+    <script type="module">
+        import init from './yew-nonograms-rel.js';
+        init('./yew-nonograms-rel_bg.wasm');
+    </script>
+</body>
+
+</html>
