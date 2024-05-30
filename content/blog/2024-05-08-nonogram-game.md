@@ -1,5 +1,7 @@
 +++
 title = "A Nonogram Game Using Yew and SVG"
+[taxonomies]
+tags = ["programming","rust","wasm","games"]
 +++
 
 Warning: js/wasm, bright screen even in dark mode :)

@@ -1,5 +1,7 @@
 +++
 title = "Mindfulness"
+[taxonomies]
+tags = ["mindfulness","meditation"]
 +++
 
 Techniques to train your mind - passed on through ancient traditions and a modern

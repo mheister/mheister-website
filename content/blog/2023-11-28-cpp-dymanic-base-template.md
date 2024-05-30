@@ -1,6 +1,8 @@
 +++
 title = "The C++ Dynamic Base Boilerplate"
 updated = 2023-11-30
+[taxonomies]
+tags = ["programming","c++"]
 +++
 
 After years of using C++, I changed my snippet for the very common case of a dynamic base

@@ -1,8 +1,15 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+{% if term.name %}
+<h2 class="subtitle">
+    <a href="{{ get_url(path='@/blog/_index.md') }}">ⓧ</a>
+    tag: {{ term.name }}
+</h2>
+{% endif %}
 <h1 class="title">
-    {{ section.title }}
+    Blog
 </h1>
 
 <div class="posts">
@@ -17,6 +24,15 @@
         <div class="post__summary">
             {{ page.summary | safe }}
         </div>
+        {% if page.taxonomies.tags %}
+        <div style="float:right">
+            tags:
+            {% for tag in page.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" itemprop="url">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
         <a href="{{ page.permalink }}#continue-reading">›› continue reading</a>
     </article>
     {% endfor %}
