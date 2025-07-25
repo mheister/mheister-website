@@ -1,0 +1,123 @@
+## Chunking
+
+As you practice, you are building *chunks* of knowledge. A chunk is a mental block of
+information that is connected through meaning. When you first see a skeletal formula, it
+might look like a random collection of lines. But with practice, you start to see it as a
+whole molecule, like 2-Chloropropane. You no longer need to count every carbon or
+hydrogen. This chunking process makes your thinking more efficient. It is one of the key
+ideas in learning anything new effectively.
+
+You can create chunks by:
+1.  **Focusing** your attention on the information you want to chunk.
+2.  **Understanding** the basic idea. You can do this by seeing the connections between the parts.
+3.  **Practicing** to gain context and see when to use the chunk.
+
+Let's do some more tests to help solidify these chunks.
+
+### Test: Name Some Molecules
+
+<div class="question-container" style="min-height: 306px">
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/pentane_skeletal.svg",
+          nolink=1,
+          alt="Skeletal formula of a 5-carbon alkane",
+          height=55) }}
+      <ol type="a">
+        <li>Butane</li>
+        <li>Pentane</li>
+        <li>Hexane</li>
+      </ol>
+    </div>
+    <div style="width: 300px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: b.</p>
+        <p>Each unlabled end of a line segment in the skeletal formula represents a
+        carbon atom. Counting them, we find 5 carbons. Since there are only single bonds,
+        it is an alkane. The name for a 5-carbon alkane is Pentane.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/but-1-ene_skeletal.svg",
+          nolink=1,
+          alt="Skeletal formula with a double bond",
+          height=50) }}
+      <ol type="a">
+        <li>But-1-ene</li>
+        <li>Butane</li>
+        <li>But-2-ene</li>
+      </ol>
+    </div>
+    <div style="width: 300px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: a.</p>
+        <p>There are 4 carbon atoms and one double bond. We start counting from the
+        end closest to the double bond, which places it at position 1.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/2-chloropropane_skeletal.svg",
+          nolink=1,
+          alt="Skeletal formula with a heteroatom substituent",
+          height=80) }}
+      <ol type="a">
+        <li>1-Chloropropane</li>
+        <li>2-Chloropropane</li>
+        <li>Trichloromethane</li>
+      </ol>
+    </div>
+    <div style="width: 300px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: b.</p>
+        <p>The parent chain has 3 carbon atoms (Propane). A chlorine atom is attached to the
+        second carbon atom.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/3-chloroprop-1-ene_skeletal.svg",
+          nolink=1,
+          alt="Skeletal formula with a double bond and a heteroatom substituent",
+          height=60) }}
+      <ol type="a">
+        <li>1-Chloroprop-2-ene</li>
+        <li>3-Chloropropane</li>
+        <li>3-Chloroprop-1-ene</li>
+      </ol>
+    </div>
+    <div style="width: 300px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <em>Hint: The double bond gets numbering priority over the substituent.</em>
+      <br><br>
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: c.</p>
+        <p>The parent chain has three carbons and one double bond. We number from the
+        right to give the double bond the lowest number (1), making it prop-1-ene. The
+        chlorine atom is on carbon 3.</p>
+      </details>
+    </div>
+  </div>
+</div>

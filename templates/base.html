@@ -60,7 +60,7 @@
                 url("/assets/bg_carbon.webp");
         }
 
-        .ballpen-lines {
+        .darkmode-invert {
             filter: grayscale(50%) invert(80%);
         }
 
@@ -224,6 +224,15 @@
         .post-date {
             margin-top: 30px;
         }
+
+        .hover-vis {
+            opacity: 0;
+            display: block;
+        }
+
+        .hover-vis:hover {
+            opacity: 1;
+        }
     </style>
 </head>
 
@@ -232,14 +241,14 @@
         <ul>
             <li>
                 <a href="/" class="background-hover" id="home-anchor">
-                    <img src="/assets/home.webp" height="100%" alt="Home" class="ballpen-lines" />
+                    <img src="/assets/home.webp" height="100%" alt="Home" class="darkmode-invert" />
                 </a>
             </li>
             <li><a href="{{ get_url(path='@/blog/_index.md') }}" class="underline-hover">Blog</a></li>
             <li><a href="{{ get_url(path='@/contact_me.md') }}" class="underline-hover">Contact Me</a></li>
         </ul>
     </nav>
-    <img id="bg-lines" src="/assets/bg_lines.png" height="400px" alt="" class="ballpen-lines" />
+    <img id="bg-lines" src="/assets/bg_lines.png" height="400px" alt="" class="darkmode-invert" />
     <div id="main-content">
         {% block content %} {% endblock %}
     </div>

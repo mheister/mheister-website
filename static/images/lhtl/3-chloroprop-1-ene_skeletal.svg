@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg height="95.2500mm" version="1.0" viewBox="0 0 181 72" width="239.4479mm" xmlns="http://www.w3.org/2000/svg"><span xmlns="" id="uas-port"/>
+  <g font-family="Helvetica" font-size="12pt" stroke-linecap="round" transform="translate(-322,-127)">
+    <g stroke="#000000" stroke-width="2.26771653543">
+      <line x1="335.00" x2="380.82" y1="182.00" y2="155.54"/>
+      <line x1="343.55" x2="380.21" y1="186.23" y2="165.06"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26771653543">
+      <line x1="380.82" x2="426.65" y1="155.54" y2="182.00"/>
+    </g>
+    <g stroke="#000000" stroke-width="2.26771653543">
+      <line x1="426.65" x2="459.00" y1="182.00" y2="163.32"/>
+    </g>
+    <text fill="#000000" font-family="Arial" font-size="24pt" x="460.30" y="167.54">Cl</text>
+  </g>
+</svg>

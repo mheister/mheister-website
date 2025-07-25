@@ -1,0 +1,53 @@
+## Test!
+
+### A test? Already?
+
+The most important thing to do *while learning* is to test oneself. Mini-tests throughout
+your learning sessions are a much more effective use of your time that re-reading the
+material several times [5]. Testing furthermore helps against developing the *illusion of
+competence*: When simply reading or watching material, it is very easy to think you
+understood the concepts as soon as you are able to follow the reasoning steps. Trying to
+recall the key points or (even better) solve exercise problems may show you that you in
+fact don't yet have a good understanding.
+
+### Question 1
+
+<div class="question">
+  <div>
+    <em>The carbon atoms in alkanes ... (one correct answer)</em>
+    <ol type="a">
+      <li>can be connected with single or double bonds.</li>
+      <li>are each connected to exactly one hydrogen atom.</li>
+      <li>form only single bonds to hydrogen and other carbon atoms.</li>
+    </ol>
+  </div>
+  <div style="border-left: 1px solid #ccc; padding-left: 10px;">
+    <details>
+      <summary>Show Answer</summary>
+      <p>Correct aswer: c.</p>
+    </details>
+  </div>
+</div><p></p>
+
+### Question 2
+
+<div class="question">
+  <div>
+    <em>Arrange the following base name fragments in order of increasing number of carbon
+      atoms in the longest chain:</em>
+    <ol type="a">
+      <li>eth (1 carbon), meth (2 carbons), but (3 carbons), prop (4 carbons)</li>
+      <li>meth (1 carbon), eth (2 carbons), prop (3 carbons), but (4 carbons)</li>
+      <li>prop (0 carbons), but (1 carbon), meth (2 carbons), eth (3 carbons)</li>
+    </ol>
+  </div>
+  <div style="border-left: 1px solid #ccc; padding-left: 10px;">
+    <em>Hint: Mnemonics and metaphors are a great tool to memorize seemingly unrelated bits of
+      knowledge!</em>
+    <br><br>
+    <details>
+      <summary>Show Answer</summary>
+      <p>Correct aswer: b.</p>
+    </details>
+  </div>
+</div>

@@ -1,0 +1,117 @@
+## Conceptualizing
+
+For a learner to "get a grasp" on something, it is often helpful to jump back and forth
+between different sections in their study material. Before you start intensely memorizing
+specific aspects, say, the base name fragments for carbon chains of specific lengths, see
+if you have a feeling why they are useful and how they relate to other aspects, e.g., the
+bond type fragments. Start forming a mental concept by scanning over the sections and
+focusing on select aspects at a time. Your brain has the ability to switch between
+*focused* and *diffuse* modes of thinking to help you with that <sup>[1]</sup>.
+
+### Test: Bond Types
+
+<div class="question" style="width: 800px">
+  <div>
+    <em>Order the suffixes from single bond to triple bond (one correct answer):</em>
+    <ol type="a">
+      <li>-ane, -ene, -yne</li>
+      <li>-ene, -yne, -ane</li>
+      <li>-ene, -ane, -yne</li>
+    </ol>
+  </div>
+  <div style="border-left: 1px solid #ccc; padding-left: 10px;">
+    <details>
+      <summary>Show Answer</summary>
+      <p style="margin: 2px">Correct answer: a.</p>
+      <small>
+          -ane indicates molecules with only single bonds (saturated carbons)<br>
+          -ene indicates molecules with at least one double bond<br>
+          -yne indicates molecules with at least one triple bond
+      </small>
+    </details>
+  </div>
+</div>
+
+### Test: Name Some Molecules
+<div class="question-container" style="min-height: 331px">
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/but-1-yne_structural.svg",
+          nolink=1,
+          alt="But-1-yne (Structural Formula)",
+          height=100) }}
+      <ol type="a">
+        <li>But-3-yne</li>
+        <li>Butyne</li>
+        <li>But-1-yne</li>
+      </ol>
+    </div>
+    <div style="width: 312px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: c.</p>
+        <p>But-1-yne is a carbon chain of length 4 with one triple bond. Since a triple bond
+        in a chain of 4 carbons can be either in the middle or with one of the outer carbons, we
+        must specify the positions, and since there are no other interesting features, we begin
+        counting at the side with the triple bond, placing it at position 1.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="question">
+    <div style="width: 210px;">
+      <em>What is the IUPAC name for this molecule?</em>
+      <br><br>
+      {{ svg_image(
+          source="/images/lhtl/propyne_structural.svg",
+          nolink=1,
+          alt="Propyne (Structural Formula)",
+          height=100) }}
+      <ol type="a">
+        <li>Prop-2-yne</li>
+        <li>Ethyne</li>
+        <li>Propyne</li>
+      </ol>
+    </div>
+    <div style="width: 312px; border-left: 1px solid #ccc; padding-left: 10px;">
+      <details>
+        <summary>Show Answer</summary>
+        <p>Correct answer: c.</p>
+        <p>Propyne is an alkyne with one triple bond in the carbon chain. Because it does not
+        matter which of the two bonds is the triple bond, we don't need to give the position in
+        the name.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="question">
+    <div style="width: 210px;">
+        <b>Bonus test:</b> <em>What is the IUPAC name for this molecule?</em>
+        <br><br>
+        {{ svg_image(
+            source="/images/lhtl/vinylacetylene.png",
+            nolink=1,
+            alt="Vinylacetylene (Structural Formula)",
+            height=130) }}
+        <br>
+        <small>No given options. Note down your answer and check.</small>
+    </div>
+    <div style="width: 312px; border-left: 1px solid #ccc; padding-left: 10px;">
+    <details>
+        <summary>Hint</summary>
+        The chain is numbered from the end that assigns the lowest number to a double or triple
+        bond. If multiple ends give the same number, the double bond is preferred.
+    </details>
+    <br>
+    <details>
+      <summary>Show Answer</summary>
+      <p>Correct answer: But-1-en-3-yne</p>
+    </details>
+  </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,157 @@
+## Organic Chemistry - Substituents and Skeletal Formula
+
+<div style="float: right; width: 220px; margin-left: 15px; text-align: center;">
+  <div>
+    <b>2-Methylpropane</b><br>
+    {{ svg_image(
+        source="/images/lhtl/2-methylpropane_structural.svg",
+        alt="2-Methylpropane (Structural Formula)",
+        height=118) }}
+  </div>
+  <div style="margin-top: 15px;">
+    <b>Chloromethane</b><br>
+    {{ svg_image(
+        source="/images/lhtl/chloromethane_structural.svg",
+        alt="Chloromethane (Structural Formula)",
+        height=80) }}
+  </div>
+</div>
+
+So far we've seen only molecules with a single chain of carbon atoms and enough hydrogen
+atoms to engage their remaining bonding sites. These are, of course, only the simplest of
+organic molecules.
+
+Let's have a look at some more complex molecules and figure out how to name them
+systematically. Imagine a fully saturated carbon chain of length three (our friend
+Propane), except with one of the two hydrogens on the middle carbon *substituted* by
+another carbon. We want our molecule to be chemically stable, so attach three new
+hydrogens to the new carbon. The newly attached atoms (CH<sub>3</sub>) are called a
+*methyl group*<sup>1</sup>. They form a *substituent* in the carbon chain, and we get
+*2-Methylpropane*: We identify the longest carbon chain and determine that we have a
+propane as our *parent structure*. The identification of substituents has lower
+*seniority* (read: priority), hence is done after the identification of the parent chain.
+Note: Lower seniority items typically produce fragments that appear *earlier* in the name,
+often as prefixes. Our methyl group at position two produces the prefix "2-Methyl".
+
+<!-- Its common name *isobutane* ... TODO -->
+
+Substituents don't have to be carbon-based. When a halogen atom like chlorine replaces a
+hydrogen, we get a *haloalkane*. In the case of *Chloromethane*, a chlorine atom has been
+substituted for one of methane's hydrogens. The prefix for a chlorine substituent is simply
+"chloro". Since methane has only one carbon atom, we don't need a number to indicate the
+substituent's position.
+
+<!-- You'll note that we've abbreviated CH<sub>3</sub> molecules again -->
+
+Structural formulas quickly get unwieldy (especially if all hydrogens are fully drawn
+out). A more concise alternative is the <span title="or line-angle formula">**skeletal
+formula**</span>. Carbon atoms are represented by vertices and line-ends instead of the
+symbol *C*. Hydrogens bonded to carbons are omitted; it's assumed each carbon has enough
+to form four bonds. All <span title="also called heteroatoms">*other atoms*</span> are
+explicitly drawn with their chemical symbols. Double and triple bonds are shown as two and
+three lines respectively.
+
+<!-- Let's look at a few examples to see how this works in practice. -->
+
+<table>
+  <tr style="text-align: center">
+    <td></td>
+    <td><em>But-1-ene</em></td>
+    <td><em>Buta-1,3-diene</em></td>
+    <td><em>Propyne</em></td>
+    <td><em>2-Methylpropane</em></td>
+    <td><em>Chloromethane</em></td>
+  </tr>
+  <tr>
+    <td><em>Structural Formula</em></td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+        {{ svg_image(
+             source="/images/lhtl/but-1-ene_structural.svg",
+             alt="But-1-ene (Structural Formula)",
+             height=100) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+        {{ svg_image(
+            source="/images/lhtl/buta-1,3-diene_structural.svg",
+            alt="Buta-1,3-diene (Structural Formula)",
+            height=108) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+         {{ svg_image(
+             source="/images/lhtl/propyne_structural.svg",
+             alt="Propyne (Structural Formula)",
+             height=90) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+          {{ svg_image(
+              source="/images/lhtl/2-methylpropane_structural.svg",
+              alt="2-Methylpropane (Structural Formula)",
+              height=118) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+          {{ svg_image(
+              source="/images/lhtl/chloromethane_structural.svg",
+              alt="Chloromethane (Structural Formula)",
+              height=80) }}
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td><em>Skeletal Formula</em></td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+        {{ svg_image(
+            source="/images/lhtl/but-1-ene_skeletal.svg",
+            alt="But-1-ene (Skeletal Formula)",
+            height=50) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+        {{ svg_image(
+            source="/images/lhtl/buta-1,3-diene_skeletal.png",
+            alt="Buta-1,3-diene (Skeletal Formula)",
+            height=60) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+         {{ svg_image(
+             source="/images/lhtl/propyne_skeletal.svg",
+             alt="Propyne (Skeletal Formula)",
+             height=80) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+         {{ svg_image(
+             source="/images/lhtl/2-methylpropane_skeletal.svg",
+             alt="2-Methylpropane (Skeletal Formula)",
+             height=80) }}
+      </div>
+    </td>
+    <td>
+      <div style="float:left; text-align:center; width:200px;">
+         {{ svg_image(
+             source="/images/lhtl/chloromethane_skeletal.svg",
+             alt="Chloromethane (Skeletal Formula)",
+             height=28) }}
+      </div>
+    </td>
+  </tr>
+</table>
+
+<small>
+<sup>1</sup> Carbon chain substituents are named similarly to parent chains: "meth", "eth",
+"prop", "but", followed by "yl" if attached to the parent chain by single bond, "ylene" if
+attached by double bond, and "ylidyne" if attached by triple bond.
+</small>

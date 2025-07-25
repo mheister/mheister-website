@@ -1,0 +1,39 @@
+## Organic Chemistry - Carbon Bonds & Alkanes
+
+Carbon bonding is essential for all known forms of life <sup>[2]</sup>. This is because of
+carbon's potential for different kinds of chemical bonds. Organic chemistry is the study
+of *organic compounds*, which are defined by some chemical authorities to be compounds
+that contain carbon-hydrogen or carbon-carbon bonds <sup>[3]</sup>.
+
+Because the field of chemistry is not exactly young, different compounds can have multiple
+*common names*, e.g., dichloromethane is the same as methylene chloride <sup>[4]</sup>. The
+*International Union of Pure and Applied Chemistry* (IUPAC) maintains a systematic naming
+scheme for organic compounds.
+
+To systematically name an organic compound, biochemists first identify the *parent chain*.
+For the simple alkanes we're looking at now, this is the longest chain of carbon atoms.
+Its length and the types of its bonds determine the *root name*.
+
+Take for example methane, ethane, propane, and butane:
+
+| Methane                                                                                                      | Ethane                                                                                                      | Propane                                                                                                       | Butane                                                                                                       |
+|:------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------|
+| <div style="width:200px"></div>                                                                              | <div style="width:200px"></div>                                                                             | <div style="width:240px"></div>                                                                               | <div style="width:200px"></div>                                                                              |
+| {{ svg_image(source="/images/lhtl/methane_structural.svg", alt="Methane (Structural Formula)", height=96) }} | {{ svg_image(source="/images/lhtl/ethane_structural.svg", alt="Ethane (Structural Formula)", height=100) }} | {{ svg_image(source="/images/lhtl/propane_structural.svg", alt="Propane (Structural Formula)", height=100) }} | {{ svg_image(source="/images/lhtl/butane_structural.svg", alt="Methane (Structural Formula)", height=100) }} |
+|                                                                                                              |                                                                                                             |                                                                                                               |                                                                                                              |
+
+These are *alkanes* (all end in -ane). Alkanes consist of only carbon and hydrogen atoms
+and have carbon chains with only single bonds without forming cycles. Carbon has four
+electrons to form bonds, a single bond between two carbon atoms is formed by one electron
+of each carbon. Compared to structures with double or triple bonds, this leaves the most
+amount of possible other bonds. Alkanes and the carbons within them therefore called
+*saturated* as they bond to as many hydrogens as possible.
+
+Before "ane" in methane, ethane, propane, and butane are "meth", "eth", "prop", and "but".
+These occur in other many other names too such as
+[ethene](https://en.wikipedia.org/wiki/Ethylene "ethylene by its common name but this is
+about IUPAC names :)") or [propyne](https://en.wikipedia.org/wiki/Propyne).
+They signify, you guessed it, the length of the carbon chain. Meth- for one, eth- for two,
+prop for three, and but- for four carbon atoms in the longest carbon chain of a molecule.
+The mnemonic "**M**onkeys **e**at **p**eeled **b**ananas!" has helped a great many chemistry
+students to remember them.

@@ -1,0 +1,50 @@
+## Functional Groups
+
+A key concept that we have not yet looked at is the **functional group**, a specific group
+of atoms that largely determines the molecule's chemical properties.
+
+Functional groups have higher seniority than substituents and bond types and different
+functional groups have different priority among themselves. The highest priority
+functional group is called the *principal functional group*. When present, the principal
+functional group often dictates the suffix of the molecule's name and gets priority in
+numbering the carbon chain.
+For example, when a *hydroxyl* (-OH) group and no higher-priority functional group is
+present, we speak of the molecule as *an alcohol*.
+This leads to one extra rule for identifying the parent chain: The parent chain is
+identified as the logest chain of carbons that conains the principal functional group.
+
+<div style="overflow: auto;">
+<div style="float: right; text-align: center; width: 220px;">
+  <b>Ethanol</b><br>
+  {{ svg_image(
+      source="/images/lhtl/ethanol_skeletal.svg",
+      alt="Ethanol (Skeletal Formula)",
+      height=50) }}
+</div>
+
+For example, ethane with an -OH group becomes the alcohol **Ethanol**. The "-e" from "ane"
+is dropped and "-ol" is added. The hydroxyl group has priority over double/triple bonds
+for numbering.
+
+</div>
+
+This is just a glimpse. There are many functional groups (ketones, aldehydes, amines,
+etc.), each with its own suffix and priority rules, which is beyond the scope of this
+introduction.
+
+
+**Let's recap the general approach to IUPAC naming we've seen:**
+
+1.  **Identify the Parent Structure**: Find the longest continuous carbon chain that
+    contains the principal functional group or main unsaturation (double/triple bonds).
+    This gives the base name (e.g., propane, butane).
+2.  **Identify Principal Features**: Principal features like double bonds (*-ene*),
+    triple bonds (*-yne*), and principal functional groups (e.g., *-ol*) determine the
+    suffix and have priority in numbering.
+3.  **Number the Chain**: Number the carbons in the parent chain to give the lowest
+    possible numbers to principal features, starting with the highest priority group.
+4.  **Name Substituents**: Identify any side groups (e.g., *methyl-*) or other atoms
+    (e.g., *chloro-*) and give them a position number.
+5.  **Assemble the Full Name**: Combine the pieces, often in the form
+    (position)-(*substituent*) (*base name*)(position)-(*bond type suffix*)
+    (position)-(*functional group suffix*).

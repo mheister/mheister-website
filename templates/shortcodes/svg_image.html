@@ -1,0 +1,10 @@
+{% if not nolink %}
+<a href="{{source}}">
+{% endif %}
+<img src="{{source}}" alt="{{alt}}"
+     {% if width %} width="{{width}}" {% endif %}
+     {% if height %} height="{{height}}" {% endif %}
+     class="darkmode-invert {% if class %}{{class}}{% endif %}" />
+{% if not nolink %}
+</a>
+{% endif %}

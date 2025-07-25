@@ -1,0 +1,62 @@
+## Organic Chemistry - Alkenes, Alkynes
+
+<div style="float:right; text-align:center; width:180px;">
+<b>Ethene</b><br>
+{{ svg_image(
+    source="/images/lhtl/ethene_structural.svg",
+    alt="Ethene (Structural Formula)", height=80) }}
+</div>
+
+Beside the group of the alkanes with their single bonds and saturated carbons, there are
+other interesting groups. Let's have a look at *alkenes* and *alkynes*.
+
+Ethene is an alkene. It is very similar to ethane, yet: It is an alkene, hence it ends on
+_-ene_. Two electrons are shared between the carbons, forming a double bond. Only two
+instead of three electrons are left to be shared with hydrogens to get a complete outer
+shell of eight electrons.
+
+Alkanes have only single bonds, alkenes have at least one double bond, and alkynes, you
+guessed it, have at least one triple bond between carbon atoms. To determine what kinds of
+bonds exist in a carbohydrate, you can look at its base name:
+- ___-ane___: Only single bonds
+- ___-ene___: One or more double bonds, no triple bonds
+- ___-yne___: One or more triple bonds
+
+In molecules with multiple carbon chains, double and triple bonds influence the
+identification of the parent chain. The parent chain becomes the longest out of those
+chains with the highest number of double and triple bonds.
+<span title="If multiple chains have the highest number of double and triple bonds, choose the one that assings the lowest numbers to all bonds, if those are the same, prefer double bonds to triple bonds, and if that doesn't decide it, choose the chain with more substituents (see section 6).">
+_Tie-breaking rules apply if this is not unique._</span> We don't need to worry about this
+for our simple examples now.
+
+For now, let's check out some more alkenes:
+
+<div style="float:left; text-align:center; width:200px;">
+<b>But-1-ene</b><br>
+{{ svg_image(
+    source="/images/lhtl/but-1-ene_structural.svg",
+    alt="But-1-ene (Structural Formula)",
+    height=100) }}
+</div>
+<div style="float:left; text-align:center; width:200px;">
+<b>Buta-1,3-diene</b><br>
+{{ svg_image(
+    source="/images/lhtl/buta-1,3-diene_structural.svg",
+    alt="Buta-1,3-diene (Structural Formula)",
+    height=100) }}
+</div>
+
+_(Do not worry about some of the hydrogens in But-1-ene being bundled in sub-molecules
+CH<sub>2</sub> / CH<sub>3</sub>. This is just to keep it compact.)_
+
+Why are there numbers in the names? The fragment "ene" tells us that there is *at least*
+one double bond. It does not tell exactly how many and in which positions. The numbers
+tell us exactly that: The double bond of but-1-ene is in the first position of the longest
+carbon chain, and the double bonds of buta-1,3-diene are in positions one and three.
+The *multiplicative prefix* "di" gives another hint at the presence of two double bonds.
+
+Note, that the structural formula of but-1-ene could have been written the other way
+around with the double bond on the right side and it would still be called but-1-ene.
+There are systematic rules about which end of the carbon chain to start counting from.
+Roughly speaking, we want to start counting from the end nearest to the most interesting
+feature of a molecule, keeping the numbers low.

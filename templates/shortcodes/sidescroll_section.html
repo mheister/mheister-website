@@ -1,0 +1,29 @@
+{% set data = load_data(path="content/blog/" ~ content, format="plain") %}
+{% set one_section_percent = (100 / total) %}
+<div id="section{{ idx }}" class="scroll-section">
+  <div class="progressbar" style="display: flex; flex-direction: row;">
+      {% for sec in range(start=1, end=idx) %}
+      <a href="#section{{ sec }}" onclick="showSection({{ sec }}); return false;" style="width: {{ one_section_percent }}%">
+          <div class="progressbar-section progressbar-section-visited">
+              <span class="hover-vis section-link">›{{ sec }}&nbsp;</span>
+          </div>
+      </a>
+      {% endfor %}
+      <div class="progressbar-section-visited" style="width: {{ one_section_percent }}%">
+          {{ idx }} / {{ total }} &nbsp;
+      </div>
+      {% if idx < total %}
+      {% for sec in range(start=idx+1, end=total+1) %}
+      <a href="#section{{ sec }}" onclick="showSection({{ sec }}); return false;" style="width: {{ one_section_percent }}%">
+          <div class="progressbar-section">
+              <span class="hover-vis section-link">›{{ sec }}&nbsp;</span>
+          </div>
+      </a>
+      {% endfor %}
+      {% endif %}
+  </div>
+  {{ data | markdown | safe }}
+  {% if idx < total %}
+  <p><a href="#section{{ idx + 1 }}" onclick="showSection({{ idx + 1 }}); return false;" class="section-link">› continue</a></p>
+  {% endif %}
+</div>

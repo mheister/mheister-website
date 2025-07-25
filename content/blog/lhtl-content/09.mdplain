@@ -1,0 +1,44 @@
+## The End
+
+I hope you learned something about learning and/or have become interested in the *Learning
+how to Learn* course (or in biochemistry). Perhaps you're currently taking the course, in
+which case I'd be especially interested in how useful you found this practical example of
+*something* to learn and whether you think that the usefulness of the learning techniques
+have proven useful. My intention was to provide some example not necessarily within
+everybody's daily life, *interleaved* with bits from *Learning how to Learn*, to
+demonstrate that
+- you can learn anything you want,
+- anything you learn broadens your perspective and concepts can be transferred to other
+  areas, and
+- training *how to learn* is helpful, especially *practice and repetition* over
+  *cramming*.
+
+### One More Test
+
+Let's try to name one more molecule with a functional group, this time an *aldeyde*. The
+aldehyde functional group contains a carbon atom double-bonded to an oxygen atom and
+single-bonded to a hydrogen atom. This leaves only one electron to bond to anything else,
+hence it is always located at the end of a carbon chain. Aldehydes get the suffix *-al*.
+
+<div class="question">
+  <div>
+    <em>What is the IUPAC name for this molecule?</em>
+    <br><br>
+    {{ svg_image(
+        source="/images/lhtl/3-methylbutanal_skeletal.svg",
+        nolink=1,
+        alt="Skeletal formula of some aldehyde",
+        height=80) }}
+    <br><br>
+    Fill in the blanks: &nbsp; <em>_-methyl____al</em>
+  </div>
+  <div style="border-left: 1px solid #ccc; padding-left: 10px;">
+    <details>
+      <summary>Show Answer</summary>
+      <p>Correct answer: 3-methylbutanal.</p>
+      <p>The parent chain has 4 carbons (butane) and an aldehyde group (-al). The
+      aldehyde carbon is always at position 1, placing the methyl group at position 3.</p>
+    </details>
+  </div>
+</div>
+

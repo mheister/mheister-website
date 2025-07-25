@@ -39,7 +39,7 @@ consciousness". This metaphor is often presented by Sam Harris in daily meditati
 thoughts we become aware of, and our sense of self.
 
 {{ resized_image(source="/images/plane_of_consciousness.webp", alt="The Plane of
-Consciousness", width=630, class="ballpen-lines") }}
+Consciousness", width=630, class="darkmode-invert") }}
 
 In the meditations on Waking Up, you are often suggested to notice the character of your
 consciousness with things appearing and disappearing and to "simply rest as that". You
