@@ -136,15 +136,15 @@ International Union of Pure and Applied Chemistry (IUPAC). I did my best to veri
 content. Nevertheless I cannot guarantee correctness, I am by no means a chemist.
 
 <div class="scroll-container" id="scroll-container">
-{{ sidescroll_section(idx=1, total=9, content="lhtl-content/01.mdplain") }}
-{{ sidescroll_section(idx=2, total=9, content="lhtl-content/02.mdplain") }}
-{{ sidescroll_section(idx=3, total=9, content="lhtl-content/03.mdplain") }}
-{{ sidescroll_section(idx=4, total=9, content="lhtl-content/04.mdplain") }}
-{{ sidescroll_section(idx=5, total=9, content="lhtl-content/05.mdplain") }}
-{{ sidescroll_section(idx=6, total=9, content="lhtl-content/06.mdplain") }}
-{{ sidescroll_section(idx=7, total=9, content="lhtl-content/07.mdplain") }}
-{{ sidescroll_section(idx=8, total=9, content="lhtl-content/08.mdplain") }}
-{{ sidescroll_section(idx=9, total=9, content="lhtl-content/09.mdplain") }}
+{{< sidescroll_section idx={1} total={9} content="lhtl-content/01.mdplain" />}}
+{{< sidescroll_section idx={2} total={9} content="lhtl-content/02.mdplain" />}}
+{{< sidescroll_section idx={3} total={9} content="lhtl-content/03.mdplain" />}}
+{{< sidescroll_section idx={4} total={9} content="lhtl-content/04.mdplain" />}}
+{{< sidescroll_section idx={5} total={9} content="lhtl-content/05.mdplain" />}}
+{{< sidescroll_section idx={6} total={9} content="lhtl-content/06.mdplain" />}}
+{{< sidescroll_section idx={7} total={9} content="lhtl-content/07.mdplain" />}}
+{{< sidescroll_section idx={8} total={9} content="lhtl-content/08.mdplain" />}}
+{{< sidescroll_section idx={9} total={9} content="lhtl-content/09.mdplain" />}}
 </div>
 
 <script>

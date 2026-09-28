@@ -25,4 +25,4 @@ when the puzzle is fully solved.
 
 Click <a href="/nonogram_game/" target="_blank">›here</a> if the iframe below does not work (very bright)
 
-{{ nonogram_game() }}
+{{< nonogram_game />}}

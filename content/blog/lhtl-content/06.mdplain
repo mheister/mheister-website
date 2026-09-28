@@ -3,17 +3,11 @@
 <div style="float: right; width: 220px; margin-left: 15px; text-align: center;">
   <div>
     <b>2-Methylpropane</b><br>
-    {{ svg_image(
-        source="/images/lhtl/2-methylpropane_structural.svg",
-        alt="2-Methylpropane (Structural Formula)",
-        height=118) }}
+    <a href="/images/lhtl/2-methylpropane_structural.svg"><img src="/images/lhtl/2-methylpropane_structural.svg" alt="2-Methylpropane (Structural Formula)" height="118" class="darkmode-invert" /></a>
   </div>
   <div style="margin-top: 15px;">
     <b>Chloromethane</b><br>
-    {{ svg_image(
-        source="/images/lhtl/chloromethane_structural.svg",
-        alt="Chloromethane (Structural Formula)",
-        height=80) }}
+    <a href="/images/lhtl/chloromethane_structural.svg"><img src="/images/lhtl/chloromethane_structural.svg" alt="Chloromethane (Structural Formula)" height="80" class="darkmode-invert" /></a>
   </div>
 </div>
 
@@ -66,42 +60,27 @@ three lines respectively.
     <td><em>Structural Formula</em></td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-        {{ svg_image(
-             source="/images/lhtl/but-1-ene_structural.svg",
-             alt="But-1-ene (Structural Formula)",
-             height=100) }}
+        <a href="/images/lhtl/but-1-ene_structural.svg"><img src="/images/lhtl/but-1-ene_structural.svg" alt="But-1-ene (Structural Formula)" height="100" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-        {{ svg_image(
-            source="/images/lhtl/buta-1,3-diene_structural.svg",
-            alt="Buta-1,3-diene (Structural Formula)",
-            height=108) }}
+        <a href="/images/lhtl/buta-1,3-diene_structural.svg"><img src="/images/lhtl/buta-1,3-diene_structural.svg" alt="Buta-1,3-diene (Structural Formula)" height="108" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-         {{ svg_image(
-             source="/images/lhtl/propyne_structural.svg",
-             alt="Propyne (Structural Formula)",
-             height=90) }}
+         <a href="/images/lhtl/propyne_structural.svg"><img src="/images/lhtl/propyne_structural.svg" alt="Propyne (Structural Formula)" height="90" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-          {{ svg_image(
-              source="/images/lhtl/2-methylpropane_structural.svg",
-              alt="2-Methylpropane (Structural Formula)",
-              height=118) }}
+          <a href="/images/lhtl/2-methylpropane_structural.svg"><img src="/images/lhtl/2-methylpropane_structural.svg" alt="2-Methylpropane (Structural Formula)" height="118" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-          {{ svg_image(
-              source="/images/lhtl/chloromethane_structural.svg",
-              alt="Chloromethane (Structural Formula)",
-              height=80) }}
+          <a href="/images/lhtl/chloromethane_structural.svg"><img src="/images/lhtl/chloromethane_structural.svg" alt="Chloromethane (Structural Formula)" height="80" class="darkmode-invert" /></a>
       </div>
     </td>
   </tr>
@@ -109,42 +88,27 @@ three lines respectively.
     <td><em>Skeletal Formula</em></td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-        {{ svg_image(
-            source="/images/lhtl/but-1-ene_skeletal.svg",
-            alt="But-1-ene (Skeletal Formula)",
-            height=50) }}
+        <a href="/images/lhtl/but-1-ene_skeletal.svg"><img src="/images/lhtl/but-1-ene_skeletal.svg" alt="But-1-ene (Skeletal Formula)" height="50" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-        {{ svg_image(
-            source="/images/lhtl/buta-1,3-diene_skeletal.png",
-            alt="Buta-1,3-diene (Skeletal Formula)",
-            height=60) }}
+        <a href="/images/lhtl/buta-1,3-diene_skeletal.png"><img src="/images/lhtl/buta-1,3-diene_skeletal.png" alt="Buta-1,3-diene (Skeletal Formula)" height="60" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-         {{ svg_image(
-             source="/images/lhtl/propyne_skeletal.svg",
-             alt="Propyne (Skeletal Formula)",
-             height=80) }}
+         <a href="/images/lhtl/propyne_skeletal.svg"><img src="/images/lhtl/propyne_skeletal.svg" alt="Propyne (Skeletal Formula)" height="80" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-         {{ svg_image(
-             source="/images/lhtl/2-methylpropane_skeletal.svg",
-             alt="2-Methylpropane (Skeletal Formula)",
-             height=80) }}
+         <a href="/images/lhtl/2-methylpropane_skeletal.svg"><img src="/images/lhtl/2-methylpropane_skeletal.svg" alt="2-Methylpropane (Skeletal Formula)" height="80" class="darkmode-invert" /></a>
       </div>
     </td>
     <td>
       <div style="float:left; text-align:center; width:200px;">
-         {{ svg_image(
-             source="/images/lhtl/chloromethane_skeletal.svg",
-             alt="Chloromethane (Skeletal Formula)",
-             height=28) }}
+         <a href="/images/lhtl/chloromethane_skeletal.svg"><img src="/images/lhtl/chloromethane_skeletal.svg" alt="Chloromethane (Skeletal Formula)" height="28" class="darkmode-invert" /></a>
       </div>
     </td>
   </tr>

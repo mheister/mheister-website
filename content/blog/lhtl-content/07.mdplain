@@ -21,11 +21,7 @@ Let's do some more tests to help solidify these chunks.
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/pentane_skeletal.svg",
-          nolink=1,
-          alt="Skeletal formula of a 5-carbon alkane",
-          height=55) }}
+      <img src="/images/lhtl/pentane_skeletal.svg" alt="Skeletal formula of a 5-carbon alkane" height="55" class="darkmode-invert" />
       <ol type="a">
         <li>Butane</li>
         <li>Pentane</li>
@@ -47,11 +43,7 @@ Let's do some more tests to help solidify these chunks.
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/but-1-ene_skeletal.svg",
-          nolink=1,
-          alt="Skeletal formula with a double bond",
-          height=50) }}
+      <img src="/images/lhtl/but-1-ene_skeletal.svg" alt="Skeletal formula with a double bond" height="50" class="darkmode-invert" />
       <ol type="a">
         <li>But-1-ene</li>
         <li>Butane</li>
@@ -72,11 +64,7 @@ Let's do some more tests to help solidify these chunks.
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/2-chloropropane_skeletal.svg",
-          nolink=1,
-          alt="Skeletal formula with a heteroatom substituent",
-          height=80) }}
+      <img src="/images/lhtl/2-chloropropane_skeletal.svg" alt="Skeletal formula with a heteroatom substituent" height="80" class="darkmode-invert" />
       <ol type="a">
         <li>1-Chloropropane</li>
         <li>2-Chloropropane</li>
@@ -97,11 +85,7 @@ Let's do some more tests to help solidify these chunks.
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/3-chloroprop-1-ene_skeletal.svg",
-          nolink=1,
-          alt="Skeletal formula with a double bond and a heteroatom substituent",
-          height=60) }}
+      <img src="/images/lhtl/3-chloroprop-1-ene_skeletal.svg" alt="Skeletal formula with a double bond and a heteroatom substituent" height="60" class="darkmode-invert" />
       <ol type="a">
         <li>1-Chloroprop-2-ene</li>
         <li>3-Chloropropane</li>

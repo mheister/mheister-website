@@ -16,10 +16,7 @@ identified as the logest chain of carbons that conains the principal functional 
 <div style="overflow: auto;">
 <div style="float: right; text-align: center; width: 220px;">
   <b>Ethanol</b><br>
-  {{ svg_image(
-      source="/images/lhtl/ethanol_skeletal.svg",
-      alt="Ethanol (Skeletal Formula)",
-      height=50) }}
+  <a href="/images/lhtl/ethanol_skeletal.svg"><img src="/images/lhtl/ethanol_skeletal.svg" alt="Ethanol (Skeletal Formula)" height="50" class="darkmode-invert" /></a>
 </div>
 
 For example, ethane with an -OH group becomes the alcohol **Ethanol**. The "-e" from "ane"

@@ -38,11 +38,7 @@ focusing on select aspects at a time. Your brain has the ability to switch betwe
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/but-1-yne_structural.svg",
-          nolink=1,
-          alt="But-1-yne (Structural Formula)",
-          height=100) }}
+      <img src="/images/lhtl/but-1-yne_structural.svg" alt="But-1-yne (Structural Formula)" height="100" class="darkmode-invert" />
       <ol type="a">
         <li>But-3-yne</li>
         <li>Butyne</li>
@@ -65,11 +61,7 @@ focusing on select aspects at a time. Your brain has the ability to switch betwe
     <div style="width: 210px;">
       <em>What is the IUPAC name for this molecule?</em>
       <br><br>
-      {{ svg_image(
-          source="/images/lhtl/propyne_structural.svg",
-          nolink=1,
-          alt="Propyne (Structural Formula)",
-          height=100) }}
+      <img src="/images/lhtl/propyne_structural.svg" alt="Propyne (Structural Formula)" height="100" class="darkmode-invert" />
       <ol type="a">
         <li>Prop-2-yne</li>
         <li>Ethyne</li>
@@ -91,11 +83,7 @@ focusing on select aspects at a time. Your brain has the ability to switch betwe
     <div style="width: 210px;">
         <b>Bonus test:</b> <em>What is the IUPAC name for this molecule?</em>
         <br><br>
-        {{ svg_image(
-            source="/images/lhtl/vinylacetylene.png",
-            nolink=1,
-            alt="Vinylacetylene (Structural Formula)",
-            height=130) }}
+        <img src="/images/lhtl/vinylacetylene.png" alt="Vinylacetylene (Structural Formula)" height="130" class="darkmode-invert" />
         <br>
         <small>No given options. Note down your answer and check.</small>
     </div>

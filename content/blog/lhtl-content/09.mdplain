@@ -24,11 +24,7 @@ hence it is always located at the end of a carbon chain. Aldehydes get the suffi
   <div>
     <em>What is the IUPAC name for this molecule?</em>
     <br><br>
-    {{ svg_image(
-        source="/images/lhtl/3-methylbutanal_skeletal.svg",
-        nolink=1,
-        alt="Skeletal formula of some aldehyde",
-        height=80) }}
+    <img src="/images/lhtl/3-methylbutanal_skeletal.svg" alt="Skeletal formula of some aldehyde" height="80" class="darkmode-invert" />
     <br><br>
     Fill in the blanks: &nbsp; <em>_-methyl____al</em>
   </div>

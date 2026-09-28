@@ -2,7 +2,7 @@
 
 {% block content %}
 
-{% if term.name %}
+{% if term?.name %}
 <h2 class="subtitle">
     <a href="{{ get_url(path='@/blog/_index.md') }}">ⓧ</a>
     tag: {{ term.name }}
@@ -28,7 +28,7 @@
         <div style="float:right">
             tags:
             {% for tag in page.taxonomies.tags %}
-            <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}" itemprop="url">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}
+            <a href="{{ get_taxonomy_url(kind="tags", term=tag) | safe }}" itemprop="url">{{ tag }}</a>{% if page.taxonomies.tags | length > 1 %}{% if loop.index != page.taxonomies.tags | length %},{% endif %}
             {% endif %}
             {% endfor %}
         </div>
