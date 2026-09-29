@@ -1,20 +1,210 @@
 {% extends "base.html" %}
 
-{% block content %}
-<h2>Hello, I am Marcel Heistermann.</h2>
-<h1>Welcome to my Website</h1>
-<p>
-    Glad you found your way here. Please have a look around!
-</p>
+{% block extra_head %}
+<style type="text/css">
+    .home {
+        position: relative;
+        --ink: #2a2f7d;
+        --hatch: #4a5099;
+    }
 
-<h2>About Me</h2>
-<p>
-    I work as an R&D engineer for a large tech company. There, I currently produce
-    software that the automotive industry uses to validate some of their embedded
-    software through virtualization of their <i>electronic control units</i>.
-    I like to spend some of my free time learning about software development in general
-    and about technologies outside my work such as creating a website like this one.
-    Honest feedback about this attempt of mine at <i>web design</i> is appreciated
-    by the way.
-</p>
+    .home-door .door-label::after {
+        background: no-repeat center / 100% 100% url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTInPjxwYXRoIGQ9J00zLDcuNSBDIDE5LDIuNSAzMyw5LjUgNDcsNSBDIDYzLDAuNSA3OSw5IDk3LDQnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzJhMmY3ZCcgc3Ryb2tlLXdpZHRoPSczLjInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcvPjwvc3ZnPg==");
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .home {
+            --ink: #9db0e8;
+            --hatch: #6f7fbd;
+        }
+
+        .home-door .door-label::after {
+            background: no-repeat center / 100% 100% url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTInPjxwYXRoIGQ9J00zLDcuNSBDIDE5LDIuNSAzMyw5LjUgNDcsNSBDIDYzLDAuNSA3OSw5IDk3LDQnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzlkYjBlOCcgc3Ryb2tlLXdpZHRoPSczLjInIHN0cm9rZS1saW5lY2FwPSdyb3VuZCcvPjwvc3ZnPg==");
+        }
+    }
+
+    .home-intro {
+        position: relative;
+        z-index: 1;
+        max-width: 30em;
+    }
+
+    .home-intro h1 {
+        margin-bottom: 0.7em;
+    }
+
+    .home-intro p {
+        max-width: 30em;
+    }
+
+    /* the drawing is set in the empty margin next to the text: it is out of the
+       flow, so it can never make the page taller or wider than the text needs */
+    .home-art {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        width: min(19em, 28vw);
+        opacity: 0.28;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .home-art svg {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    @media screen and (max-width: 1000px) {
+        .home-art {
+            display: none;
+        }
+    }
+
+    .home-doors {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.3em;
+        margin-top: 2.2em;
+        padding: 0;
+        list-style: none;
+    }
+
+    .home-door {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+        color: inherit;
+    }
+
+    .home-door svg {
+        display: block;
+        width: 3.8em;
+        height: 3.8em;
+        overflow: visible;
+        transition: transform 0.18s ease-out;
+    }
+
+    .home-door:hover svg,
+    .home-door:focus-visible svg {
+        transform: rotate(-3deg) scale(1.08);
+    }
+
+    .home-door .door-label {
+        position: relative;
+        font-size: 1.05em;
+    }
+
+    .home-door .door-label::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0.15em;
+        bottom: -0.34em;
+        height: 0.4em;
+        pointer-events: none;
+        clip-path: inset(0 100% 0 0);
+        transition: clip-path 0.28s ease-out;
+    }
+
+    .home-door:hover .door-label::after,
+    .home-door:focus-visible .door-label::after {
+        clip-path: inset(0 0 0 0);
+    }
+
+    /* the whole page is drawn on, one stroke at a time */
+    .home-ink {
+        fill: none;
+        stroke: var(--ink);
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .home-ink.ink {
+        stroke-width: 1.9;
+    }
+
+    .home-ink.thin {
+        stroke-width: 1.15;
+    }
+
+    .home-ink.faint {
+        stroke-width: 1.1;
+        opacity: 0.45;
+    }
+
+    .home-ink.hatch {
+        stroke: var(--hatch);
+        stroke-width: 1;
+        opacity: 0.6;
+    }
+
+    .home-ink.solid {
+        stroke: none;
+        fill: var(--ink);
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .home-ink {
+            stroke-dasharray: 100;
+            stroke-dashoffset: 100;
+            animation: draw-stroke 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+            animation-delay: var(--d, 0s);
+        }
+
+        .home-ink.hatch {
+            animation-duration: 1.4s;
+        }
+
+        @keyframes draw-stroke {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    }
+</style>
+{% endblock extra_head %}
+
+{% block content %}
+{% set_global latest = "" %}
+{% set_global blog = get_section(path="blog/_index.md") %}
+{% for post in blog.pages %}
+{% if not latest or post.date > latest.date %}{% set_global latest = post %}{% endif %}
+{% endfor %}
+<div class="home">
+    <div class="home-art">
+        {% include "home_house.html" %}
+    </div>
+    <div class="home-intro">
+        <h1>Marcel Heistermann<strong>computers, thoughts, banalities</strong></h1>
+        <p>
+            Every once in a while I add something to the blog.
+        </p>
+
+        <ul class="home-doors">
+            <li>
+                <a class="home-door" href="{{ get_url(path='@/blog/_index.md') }}">
+                    {% include "home_doodle_notebook.html" %}
+                    <span class="door-label">Blog</span>
+                </a>
+            </li>
+            <li>
+                <a class="home-door" href="{{ get_url(path='@/contact_me.md') }}">
+                    {% include "home_doodle_envelope.html" %}
+                    <span class="door-label">Contact Me</span>
+                </a>
+            </li>
+            {% if latest %}
+            <li>
+                <a class="home-door" href="{{ latest.permalink }}">
+                    {% include "home_doodle_plane.html" %}
+                    <span class="door-label">Latest Post</span>
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
 {% endblock content %}

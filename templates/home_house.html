@@ -1,0 +1,53 @@
+        <svg viewBox="0 0 420 340" aria-hidden="true" focusable="false">
+        <defs>
+          <filter id="home-wobble" x="-15%" y="-15%" width="130%" height="130%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.026" numOctaves="3" seed="9" result="n"></feTurbulence>
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="2.3" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+          </filter>
+          <clipPath id="home-roof"><path d="M70,160 L200,48 L330,160 Z"></path></clipPath>
+          <clipPath id="home-wall"><path d="M102,154 L298,154 L298,292 L102,292 Z"></path></clipPath>
+        </defs>
+        <g filter="url(#home-wobble)">
+          <g class="home-ink faint">
+            <path pathLength="100" style="--d:3.37s" d="M262,40 c -8,-7 6,-12 0,-20 c -6,-8 5,-12 1,-20"></path>
+            <path pathLength="100" style="--d:3.43s" d="M280,28 c -6,-5 4,-9 0,-14"></path>
+          </g>
+          <g class="home-ink faint"><path pathLength="100" style="--d:3.52s" d="M50,76 C46,64 58,56 67,63 C69,50 88,48 92,61 C101,54 114,62 111,72 C108,77 100,78 94,78 L50,78 Z"></path></g>
+          <g class="home-ink thin">
+            <path pathLength="100" style="--d:3.59s" d="M338,56 c 5,-5 9,5 14,0 c 5,-5 9,5 14,0"></path>
+            <path pathLength="100" style="--d:3.65s" d="M364,78 c 4,-4 7,4 11,0 c 4,-4 7,4 11,0"></path>
+          </g>
+          <path pathLength="100" style="--d:2.40s" class="home-ink faint" d="M30,292 C 120,296 200,288 300,293 C 340,295 374,291 408,294"></path>
+          <path pathLength="100" style="--d:2.73s" class="home-ink ink" d="M250,96 L250,70 L272,70 L272,116"></path>
+          <g id="home-roofhatch" class="home-ink hatch" clip-path="url(#home-roof)"><path pathLength="100" style="--d:3.17s" d="M278.8,238.4 L415.2,121.0 M273.6,232.4 L409.9,114.9 M268.3,226.3 L404.7,108.8 M263.1,220.3 L399.5,102.8 M257.9,214.2 L394.3,96.7 M252.7,208.1 L389.0,90.6 M247.5,202.1 L383.8,84.6 M242.2,196.0 L378.6,78.5 M237.0,190.0 L373.4,72.5 M231.8,183.9 L368.2,66.4 M226.6,177.8 L362.9,60.3 M221.3,171.8 L357.7,54.3 M216.1,165.7 L352.5,48.2 M210.9,159.7 L347.3,42.2 M205.7,153.6 L342.1,36.1 M200.5,147.5 L336.8,30.0 M195.2,141.5 L331.6,24.0 M190.0,135.4 L326.4,17.9 M184.8,129.3 L321.2,11.9 M179.6,123.3 L315.9,5.8 M174.4,117.2 L310.7,-0.3 M169.1,111.2 L305.5,-6.3 M163.9,105.1 L300.3,-12.4 M158.7,99.0 L295.1,-18.4 M153.5,93.0 L289.8,-24.5 M148.2,86.9 L284.6,-30.6 M143.0,80.9 L279.4,-36.6 M137.8,74.8 L274.2,-42.7 M132.6,68.7 L268.9,-48.8 M127.4,62.7 L263.7,-54.8 M122.1,56.6 L258.5,-60.9 M116.9,50.6 L253.3,-66.9 M111.7,44.5 L248.1,-73.0 M106.5,38.4 L242.8,-79.1 M101.2,32.4 L237.6,-85.1 M96.0,26.3 L232.4,-91.2 M90.8,20.3 L227.2,-97.2 M85.6,14.2 L222.0,-103.3 M80.4,8.1 L216.7,-109.4"></path></g>
+          <path pathLength="100" style="--d:2.65s" class="home-ink ink" d="M64,166 L200,50 L336,166"></path>
+          <path pathLength="100" style="--d:2.47s" class="home-ink ink" d="M102,158 L102,292"></path>
+          <path pathLength="100" style="--d:2.53s" class="home-ink ink" d="M298,158 L298,292"></path>
+          <g id="home-wallhatch" class="home-ink hatch" clip-path="url(#home-wall)"><path pathLength="100" style="--d:3.23s" d="M94,254 L144,300 M104,250 L156,300 M94,274 L122,300 M114,246 L168,298 M86,264 L114,296"></path></g>
+          <g class="home-ink hatch" clip-path="url(#home-wall)"><path pathLength="100" style="--d:3.29s" d="M110,170 L114,178 M128,163 L132,171 M146,163 L150,171 M164,163 L168,171 M182,163 L186,171 M200,163 L204,171 M218,163 L222,171 M236,163 L240,171 M254,163 L258,171 M272,163 L276,171 M286,170 L290,178"></path></g>
+          <path pathLength="100" style="--d:2.59s" class="home-ink ink" d="M102,292 L298,292"></path>
+          <g class="home-ink thin">
+            <path pathLength="100" style="--d:2.82s" d="M124,188 L168,188 L168,228 L124,228 Z"></path>
+            <path pathLength="100" style="--d:2.88s" d="M146,188 L146,228 M124,208 L168,208"></path>
+            <path pathLength="100" style="--d:2.85s" d="M234,188 L278,188 L278,228 L234,228 Z"></path>
+            <path pathLength="100" style="--d:2.91s" d="M256,188 L256,228 M234,208 L278,208"></path>
+          </g>
+          <g class="home-ink thin">
+            <path pathLength="100" style="--d:2.98s" d="M120,232 L172,232 M230,232 L282,232"></path>
+          </g>
+          <g>
+            <path pathLength="100" style="--d:3.01s" class="home-ink ink" d="M174,292 L174,238 Q174,216 196,216 Q218,216 218,238 L218,292"></path>
+            <path pathLength="100" style="--d:3.08s" class="home-ink thin" d="M182,292 L182,240 Q182,224 196,224 Q210,224 210,240 L210,292"></path>
+            <path pathLength="100" style="--d:3.14s" d="M205,256.6 a2.4,2.4 0 1,0 0.1,0 Z" fill="currentColor" stroke="none" class="solid"/>
+          </g>
+          <g class="home-ink thin"><path pathLength="100" style="--d:3.20s" d="M168,292 L224,292 L229,299 L163,299 Z"></path></g>
+          <g>
+            <path pathLength="100" style="--d:3.26s" class="home-ink ink" d="M232,292 c -4,-7 0,-13 6,-13 c 1,-6 8,-8 12,-3 c 4,-5 12,-3 12,4 c 6,0 9,6 7,12"></path>
+            <path pathLength="100" style="--d:3.33s" class="home-ink hatch" d="M240,290 l2,-7 M248,291 l0,-9 M256,291 l-1,-9 M264,290 l-2,-7"></path>
+          </g>
+          <g class="home-ink faint">
+            <path pathLength="100" style="--d:3.40s" d="M172,299 C 170,316 162,324 158,340 M220,299 C 222,316 230,324 234,340"></path>
+            <path pathLength="100" style="--d:3.46s" d="M167,313 L225,312 M162,327 L230,326" stroke-dasharray="7 9" opacity=".55"></path>
+          </g>
+          <g class="home-ink faint"><path pathLength="100" style="--d:3.52s" d="M108,291 l -5,-10 M113,292 l 2,-13 M288,291 l 5,-9 M293,292 l -1,-12"></path></g>
+        </g></svg>
